@@ -1,0 +1,387 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Hero Section */
+.hero {
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Preview Sections */
+.about-preview, .resume-preview, .projects-preview, .contact-preview {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-preview:hover, .resume-preview:hover, .projects-preview:hover, .contact-preview:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #5b86e5;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #ff9a9e;
+}
+/* Contact Info */
+.contact-info {
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-box {
+    width: 200px;
+    padding: 20px;
+    background: #36d1dc;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.contact-box:hover {
+    background: #ffcc00;
+}
+
+.contact-box img {
+    width: 50px;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a img {
+    width: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links a img:hover {
+    transform: scale(1.2);
+}
+
+/* Contact Form */
+.contact-form {
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background: #5b86e5;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff9a9e;
+}
+/* Project Gallery */
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    width: 300px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* Resume Intro Image */
+.resume-image {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Education Section */
+.edu-box {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.edu-box:hover {
+    transform: scale(1.1);
+}
+
+.edu-box img {
+    width: 100px;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card {
+    width: 200px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+}
+
+.skill-card img {
+    width: 80px;
+}
+
+/* Work Experience Section */
+.job {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.job:hover {
+    transform: scale(1.05);
+}
+
+.job img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Profile Image */
+.profile-image {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Skills Section */
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-box {
+    width: 200px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+    transform: scale(1.1);
+}
+
+.skill-box img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+    color: #5b86e5;
+    text-shadow: 2px 2px 4px rgba(91, 134, 229, 0.3);
+}
+
+h3 {
+    color: #ff9a9e;
+}
+
+/* Skills */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px;
+    background: #36d1dc;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #ffcc00;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background: #5b86e5;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff9a9e;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
